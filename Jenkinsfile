@@ -8,7 +8,7 @@ pipeline {
   }
   stages {
     stage('Pre Check') {
-      steps {
+      steps { sh "cat docker-compose.build.yml"
       
        
       }
