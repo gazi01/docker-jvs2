@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Pre Check') {
       steps {
-        sh "test -f ~/.docker/config.json"
+      
        
       }
     }
